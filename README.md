@@ -14,27 +14,30 @@ Overall, the basic to have a bot is to install slixmpp library.
 The credentials of the bot account are hardcoded into the script (You must add your own)
 
 
-The bots do the following thing:
-+ Personal message
+The bots work in the following way:
+
+#### Personal message
+
 1. Connect to a server with a provided credentials
 2. Send a message to an address
 3. Disconnect and close the script
 
-+ Sending a message to a MUC
+#### Sending a message to a MUC
+
 1. Connnect to a server with a provided credentials
 2. Join a MUC
 3. Send the message
 4. Disconnect and close the script
 
 
-+ Encrypted personal message
+#### Encrypted personal message
 1. Connect to a server with a provided credentials
 2. Blind-trust OMEMO keys of the recipient
 3. Encrypt the message
 4. Send the message
 5. Disconnect and close the script
 
-+ Sending an encrypted message to a MUC
+#### Sending an encrypted message to a MUC
 1. Connnect to a server with a provided credentials
 2. Join a MUC
 3. Get JIDs of the MUC
